@@ -1,7 +1,7 @@
 
 
-import database from '@/utils/config'
-import musicSchema from '@/models/musicSchema'
+import database from '../../src/utils/config'
+import musicSchema from '../../src/models/musicSchema'
 
 
 const Addlike = async(req,res)=>{

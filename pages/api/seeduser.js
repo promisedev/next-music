@@ -1,5 +1,5 @@
-import User from '@/models/userSchema'
-import database from '@/utils/config'
+import User from "../../src/models/userSchema";
+import database from "../../src/utils/config";
 import bcrypt from 'bcrypt'
 
 const Seed = async(req,res)=>{

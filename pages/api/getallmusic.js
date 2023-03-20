@@ -1,5 +1,5 @@
-import musicSchema from "@/models/musicSchema";
-import database from "@/utils/config";
+import musicSchema from "../../src/models/musicSchema";
+import database from "../../src/utils/config";
 
 const Request = async (req, res) => {
   await database.connect();

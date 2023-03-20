@@ -1,5 +1,5 @@
 import Layout from "../src/components/layout2";
-import Styles from "../src/styles/about.module.css"
+import Styles from "../styles/about.module.css"
 import Header from "../src/components/headers"
 import Seo from '../src/components/seo'
 

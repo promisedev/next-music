@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
-import database from '@/utils/config'
-import musicSchema from '@/models/musicSchema'
+import database from '../../src/utils/config'
+import musicSchema from "../../src/models/musicSchema";
 
 const Search = async(req,res)=>{
 const {query} = await req.body;

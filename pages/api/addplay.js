@@ -1,5 +1,5 @@
-import database from '@/utils/config'
-import musicSchema from '@/models/musicSchema'
+import database from '../../src/utils/config'
+import musicSchema from "../../src/models/musicSchema";
 
 const Addplays = async (req, res) => {
   const { id } = await req.body;
