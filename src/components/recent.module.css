@@ -1,0 +1,42 @@
+
+
+.music_recent{width:100%; height:auto; background-color: rgb(14, 14, 16); display:flex; flex-direction: column; }
+.music_plays{width:100%; height:auto; background-color: none; display:flex; flex-direction: column;margin-top: 150px; }
+
+@media screen and (max-width:420px){
+   .music_plays{width:100%; height:auto; background-color: none; display:flex; flex-direction: column;margin-top: 90px; } 
+}
+
+.music_title{font-family: "Achivo Black","Tilt Warp"; font-size:21px; color:#fff; margin-left: 30px; height: 50px;display:flex; align-items: center;}
+
+.music_body{width:98%; height:auto;display:grid; grid-template-columns: repeat(5,1fr);margin-left:20px; margin-bottom: 20px;}
+
+
+/* responsive */
+
+@media screen and (max-width:950px) {
+ .music_body{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(5 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:850px) {
+ .music_body{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(4 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:750px) {
+ .music_body{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(4 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:650px) {
+ .music_body{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(3 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+@media screen and (max-width:550px) {
+ .music_body{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(3 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:450px) {
+ .music_body{width:97%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(2 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+@media screen and (max-width:350px) {
+ .music_body{width:97%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(2 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+

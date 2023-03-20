@@ -1,0 +1,102 @@
+.body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: none;
+  align-items: center;
+  position:relative
+}
+.music_div {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn {
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+  color: rgb(145, 145, 148);
+  border: 1px solid rgb(145, 145, 148);
+  border-radius: 20px;
+  background: none;
+  transition: 0.3s ease;cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+  .btn{cursor:default}
+}
+
+@media screen and (max-width:500px){
+  .btn{cursor:default;padding: 5px 10px 5px 10px;font-size: 13px; }
+}
+
+.active_btn {
+  color: rgb(255, 255, 255);
+  border: none;
+  background: rgb(59, 215, 184);
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  transition: 0.3s ease;cursor: pointer;
+}
+@media screen and (max-width:800px){
+  .active_btn{cursor:default}
+}
+@media screen and (max-width:500px){
+  .active_btn{cursor:default;padding: 5px 10px 5px 10px;font-size: 13px; }
+}
+
+.error{width:100%; position:fixed;top:10%; height: auto; background:rgb(248, 244, 244,0.1);padding: 10px 5px 10px 5px;
+display:flex; justify-content:center; align-items:center; z-index: 100;}
+    
+.err_alert{width:300px; height:fit-content;font-family:karla; font-size:13px; background:rgb(242, 189, 170); color:rgb(131, 49, 49);border-radius: 20px;text-align:center;padding: 10px 5px 10px 5px}
+.success_alert{width:300px; height:fit-content;font-family:karla; font-size:13px; background:rgb(184, 245, 242); color:rgb(5, 98, 105);border-radius: 20px;text-align:center ;padding: 10px 5px 10px 5px}
+
+.music_table_modal{ position:fixed; width:100%; height:100vh; background:rgb(59, 215, 184,0.1); z-index: 10;display:flex; align-items: center; justify-content: center;}
+.modal_item{width:300px; height: 150px; background-color: #fff; border-radius: 19px; display:flex; align-items: center; justify-content: center; flex-direction: column; animation: modal 0.2s ease-in}
+
+@keyframes modal { from{transform: scale(0);}to{transform: scale(1)}
+  
+}
+
+.modal_item_p1{ font-family:karla; font-size:14px ; color:rgb(50, 8, 8);}
+.modal_item_p2{width:70%;display:flex; justify-content:space-between}
+.modal_item_primary{width:fit-content; padding: 9px 13px 9px 13px; color:rgb(8, 116, 110); background:rgb(191, 236, 234);display:flex; align-items: center; justify-content: center; border-radius:19px;border:none; outline:none;cursor: pointer;} 
+.modal_item_danger{width:fit-content; padding: 9px 13px 9px 13px; color:rgb(193, 112, 27); display:flex; align-items: center;background:rgb(243, 215, 184); justify-content: center;border-radius:19px;border:none; outline:none;cursor: pointer;}
+.modal_item_primary:hover{background:rgb(180, 235, 232);transition:0.3s ease} 
+.modal_item_danger:hover{background:rgb(245, 212, 175); transition:0.3s ease}
+
+/* ----------------------------------------------- */
+.auth_body{ width:100%; height: 500px; display:flex; align-items: center; justify-content: center; margin-top:20px}
+.auth_form{ width: 400px; height:450px; display: flex; flex-direction: column;background-color: rgba(25, 25, 26, 0.3);padding:10px;border-radius: 20px;border: 0.01em solid rgb(35, 35, 35)}
+
+@media screen and (max-width:500px){
+  .auth_form{width:300px}
+}
+
+@media screen and (max-width:320px){
+  .auth_form{width:280px}
+}
+
+.auth_logo{width:100%; height: auto; display:flex; align-items: center ; justify-content: center;}
+.auth_logo>img{width:150px}
+.auth_form>form{width:100%; display:flex; flex-direction: column; height: 55%; justify-content: space-between;margin-top: 30px;}
+.auth_form>form>input[type="text"]{width:95%; height: 50px;outline: none;border: none; border-radius: 18px; font-family: karla; font-size:16px;background:none;  padding-left: 14px;background:rgb(221, 153, 248); color:rgb(61, 3, 59);}
+.auth_form>form>input[type="password"]{width:95%; height: 50px;outline: none;border: none; border-radius: 18px; font-family: karla; background:none;  padding-left: 14px;background:rgb(221, 153, 248);font-size:16px ;color:rgb(61, 3, 59);}
+.auth_form>form>button{width: 100%; height: 50px;outline: none;border: none; border-radius: 18px; font-family: karla; font-size:18px;color:rgb(61, 3, 59);  cursor: pointer;;}
+
+ @media screen and (max-width:800px){
+.auth_form>form>button{cursor:default}
+ }
+
+.auth_error{width: 100%; height:100px; background-color: rgb(241, 211, 165); border-radius: 19px;display:flex; flex-direction: column; margin-top: 20px;}
+.auth_error>p{ color:rgb(174, 106, 29); margin-left: 20px; font-family: karla; font-size: 14px;}
+
+
+
+
+

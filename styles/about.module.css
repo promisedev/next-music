@@ -1,0 +1,35 @@
+.about_cont{ width:100%; height:auto; background:#fff; position:relative}
+
+.about_body{ width:50%; display:flex; flex-direction:column; margin-left: 10%;  }
+@media screen and (max-width:500px){
+.about_body{ width:90%;margin-left:20px}
+}
+
+
+.about_body>h2{ font-family: candal,Amaranth,"Russo One", "Secular One"; color:black; font-size:35px;margin-top: 40px; font-weight:normal}
+.about_body>p{font-family:karla; font-size:16px }
+
+.about_body>ul>li{ font-family: karla; font-size:14px; } 
+.about_body>ul>li>a{ color: rgb(184, 6, 131) ; text-decoration:none}
+
+.privacy_body_cont{width:100%; height:auto; background:#fff}
+.privacy_body{margin-left:20px; display:flex; flex-direction:column}
+
+/* ---------------------------------- */
+.cookies_cont{ width:100%; height:auto; background:#fff; position:relative}
+.cookies_body{width:50%; display:flex; flex-direction:column; margin-left: 10%;  }
+@media screen and (max-width:500px){
+.cookies_body{ width:90%;margin-left:20px}
+}
+
+.cookies_body>h2{ font-family: candal,Amaranth,"Russo One", "Secular One"; color:black; font-size:35px;margin-top: 40px; font-weight:normal}
+.cookies_body>h3{ font-family: candal,Amaranth,"Russo One", "Secular One"; color:black; font-size:28px;margin-top: 40px; font-weight:normal}
+
+.cookies_body>p{font-family:karla; font-size:16px }
+.cookies_body>p>a{ color: rgb(184, 6, 131) ; text-decoration:none}
+.cookies_body>ol{ margin:0}
+.cookies_body>ol>li{ font-family: karla; font-size:14px; }
+
+
+
+

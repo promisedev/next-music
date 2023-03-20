@@ -1,0 +1,13 @@
+
+
+.equal_body{ width: 350px; height: 40px; background-color: none;
+display:flex; position:relative; justify-content: space-evenly; align-items: baseline; z-index: 7;cursor:default}
+.equal_body2{ width: 350px; height: 40px; background-color: none;
+display:flex; position:absolute; justify-content: space-evenly; align-items: baseline;cursor:default }
+.equal_bar{ width: 3px; height: 60%; background-color: #fff;
+ border-radius: 10px 10px 0px 0px ; z-index: 7;} 
+
+ @media screen and (max-width:420px) {
+ .equal_body{ width: 350px; width:80% }
+ .equal_body2{ width: 350px; width:80% }
+}

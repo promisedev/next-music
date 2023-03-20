@@ -1,0 +1,50 @@
+
+.music_body{width:100%; height: auto; display:flex; flex-direction:column;background-color: none;}
+.music_title{font-family: "Achivo Black","Tilt Warp"; font-size:21px; color:#fff; margin-left: 30px;}
+.music_container{width:98%; height:auto; display:grid;  grid-gap: 15px;  grid-template-columns: repeat(5 ,1fr); margin-top: 30px;margin-left:20px}
+
+
+.music_body_control{ width:100%; height: auto; display:flex; align-items:center; justify-content:center; margin-top:25px; margin-bottom: 25px;}
+.music_body_control>button{width:300px; width:fit-content; height: 40px; padding: 3px 10px 3px 10px; background: #fff; border-radius: 14px;transition:0.3s ease; cursor: pointer;color:rgb(156, 4, 115); outline:none; border:none; }
+@media screen and (max-width:800px) {
+.music_body_control>button{ cursor:default}   
+}
+
+.music_body_control>button:hover{ background: rgb(156, 4, 115);transition:0.3s ease; color:#fff}
+
+/* responsive */
+
+@media screen and (max-width:950px) {
+ .music_container{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(5 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:850px) {
+ .music_container{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(4 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:750px) {
+ .music_container{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(4 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:650px) {
+ .music_container{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(3 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+@media screen and (max-width:550px) {
+ .music_container{width:98%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(3 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+@media screen and (max-width:450px) {
+ .music_container{width:97%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(2 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+@media screen and (max-width:350px) {
+ .music_container{width:97%; height:auto; display:grid;  gap: 15px 0px;  grid-template-columns: repeat(2 ,1fr); margin-top: 30px;margin-left:10px}   
+}
+
+
+
+
+
+
+
+
+
